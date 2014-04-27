@@ -24,6 +24,8 @@
 		88145CC1190DB60A00780BB1 /* FindMolarMassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88145CC0190DB60A00780BB1 /* FindMolarMassTests.m */; };
 		88145CCB190DB65200780BB1 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88145CCA190DB65200780BB1 /* Storyboard.storyboard */; };
 		88145CCE190DB68100780BB1 /* ElementsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88145CCD190DB68100780BB1 /* ElementsTableViewController.m */; };
+		88145CD1190DB90C00780BB1 /* Element.m in Sources */ = {isa = PBXBuildFile; fileRef = 88145CD0190DB90C00780BB1 /* Element.m */; };
+		88145CD4190DBCAE00780BB1 /* DisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88145CD3190DBCAE00780BB1 /* DisplayViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,10 @@
 		88145CCA190DB65200780BB1 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		88145CCC190DB68100780BB1 /* ElementsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementsTableViewController.h; sourceTree = "<group>"; };
 		88145CCD190DB68100780BB1 /* ElementsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElementsTableViewController.m; sourceTree = "<group>"; };
+		88145CCF190DB90C00780BB1 /* Element.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Element.h; sourceTree = "<group>"; };
+		88145CD0190DB90C00780BB1 /* Element.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Element.m; sourceTree = "<group>"; };
+		88145CD2190DBCAE00780BB1 /* DisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayViewController.h; sourceTree = "<group>"; };
+		88145CD3190DBCAE00780BB1 /* DisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,8 +128,12 @@
 			children = (
 				88145CA6190DB60A00780BB1 /* AppDelegate.h */,
 				88145CA7190DB60A00780BB1 /* AppDelegate.m */,
+				88145CCF190DB90C00780BB1 /* Element.h */,
+				88145CD0190DB90C00780BB1 /* Element.m */,
 				88145CCC190DB68100780BB1 /* ElementsTableViewController.h */,
 				88145CCD190DB68100780BB1 /* ElementsTableViewController.m */,
+				88145CD2190DBCAE00780BB1 /* DisplayViewController.h */,
+				88145CD3190DBCAE00780BB1 /* DisplayViewController.m */,
 				88145CCA190DB65200780BB1 /* Storyboard.storyboard */,
 				88145CAC190DB60A00780BB1 /* Images.xcassets */,
 				88145CA9190DB60A00780BB1 /* FindMolarMass.xcdatamodeld */,
@@ -258,7 +268,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				88145CCE190DB68100780BB1 /* ElementsTableViewController.m in Sources */,
+				88145CD4190DBCAE00780BB1 /* DisplayViewController.m in Sources */,
 				88145CA8190DB60A00780BB1 /* AppDelegate.m in Sources */,
+				88145CD1190DB90C00780BB1 /* Element.m in Sources */,
 				88145CAB190DB60A00780BB1 /* FindMolarMass.xcdatamodeld in Sources */,
 				88145CA4190DB60A00780BB1 /* main.m in Sources */,
 			);

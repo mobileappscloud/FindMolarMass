@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Element.h"
+#import "DisplayViewController.h"
 
-@interface ElementsTableViewController : UITableViewController
+@interface ElementsTableViewController : UITableViewController <UITableViewDelegate, UITableViewDataSource>
 
+@property (nonatomic, strong)NSMutableArray *elementArray;
 @end

@@ -13,6 +13,8 @@
 @end
 
 @implementation ElementsTableViewController
+@synthesize elementArray;
+
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -27,12 +29,40 @@
 {
     [super viewDidLoad];
     
+   
+    
+    elementArray = [[NSMutableArray alloc] init];
+    Element *element = [[Element alloc] init];
+    [element setElementName:@"Actinium"];
+    [element setAtomicWeight:@"227.0277"];
+    [element setElectronegativity:@"1.1"];
+    [element setElementSymbol:@"Ac"];
+    [elementArray addObject:element];
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
+
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    self.tableView.delegate = self;
+    NSIndexPath *indexPath = self.tableView.indexPathForSelectedRow;
+    
+    if ([segue.identifier isEqualToString:@"Next"])
+    {
+        DisplayViewController *detailVC = (DisplayViewController*)segue.destinationViewController;
+        Element *currentElement = [elementArray objectAtIndex:indexPath.row];
+        [detailVC setElementSymb:[currentElement elementSymbol]];
+        [detailVC setElectroNeg:[currentElement electronegativity]];
+        [detailVC setAtomicMass:[currentElement atomicWeight]];
+        
+    }
+}
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -46,26 +76,27 @@
 {
 
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
 
-    // Return the number of rows in the section.
-    return 0;
+    return [elementArray count];
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
+    Element *current = [elementArray objectAtIndex:indexPath.row];
+    [cell.textLabel setText:[current elementName]];
     
     // Configure the cell...
     
     return cell;
 }
-*/
+
 
 /*
 // Override to support conditional editing of the table view.
