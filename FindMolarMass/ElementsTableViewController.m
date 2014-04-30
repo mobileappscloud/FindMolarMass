@@ -307,6 +307,296 @@
     [element setElectronegativity:@"N/A"];
     [element setElementSymbol:@"Hs"];
     [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Helium"];
+    [element setAtomicWeight:@"4.002602"];
+    [element setElectronegativity:@"N/A"];
+    [element setElementSymbol:@"He"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Hassium"];
+    [element setAtomicWeight:@"277"];
+    [element setElectronegativity:@"N/A"];
+    [element setElementSymbol:@"Hs"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Holium"];
+    [element setAtomicWeight:@"164.93032"];
+    [element setElectronegativity:@"1.23"];
+    [element setElementSymbol:@"Ho"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Hydrogen"];
+    [element setAtomicWeight:@"1.00794"];
+    [element setElectronegativity:@"2.2"];
+    [element setElementSymbol:@"H"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Indium"];
+    [element setAtomicWeight:@"114.818"];
+    [element setElectronegativity:@"1.78"];
+    [element setElementSymbol:@"In"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Iodine"];
+    [element setAtomicWeight:@"126.90447"];
+    [element setElectronegativity:@"2.66"];
+    [element setElementSymbol:@"I"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Iridium"];
+    [element setAtomicWeight:@"192.217"];
+    [element setElectronegativity:@"2.2"];
+    [element setElementSymbol:@"Ir"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Iron"];
+    [element setAtomicWeight:@"55.845"];
+    [element setElectronegativity:@"1.83"];
+    [element setElementSymbol:@"Fe"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Krypton"];
+    [element setAtomicWeight:@"83.798"];
+    [element setElectronegativity:@"3"];
+    [element setElementSymbol:@"Hs"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Lathanum"];
+    [element setAtomicWeight:@"138.9055"];
+    [element setElectronegativity:@"1.1"];
+    [element setElementSymbol:@"La"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Lawrencium"];
+    [element setAtomicWeight:@"262"];
+    [element setElectronegativity:@"N/A"];
+    [element setElementSymbol:@"Lr"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Lead"];
+    [element setAtomicWeight:@"207.2"];
+    [element setElectronegativity:@"2.33"];
+    [element setElementSymbol:@"Pb"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Lithium"];
+    [element setAtomicWeight:@"6.941"];
+    [element setElectronegativity:@"0.98"];
+    [element setElementSymbol:@"Li"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Lutetium"];
+    [element setAtomicWeight:@"174.967"];
+    [element setElectronegativity:@"1.27"];
+    [element setElementSymbol:@"Lu"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Magnesium"];
+    [element setAtomicWeight:@"24.305"];
+    [element setElectronegativity:@"1.31"];
+    [element setElementSymbol:@"Mg"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Manganese"];
+    [element setAtomicWeight:@"54.938049"];
+    [element setElectronegativity:@"N/A"];
+    [element setElementSymbol:@"Mn"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Meitnerium"];
+    [element setAtomicWeight:@"268"];
+    [element setElectronegativity:@"N/A"];
+    [element setElementSymbol:@"Mt"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Mendelevium"];
+    [element setAtomicWeight:@"258"];
+    [element setElectronegativity:@"1.3"];
+    [element setElementSymbol:@"Md"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Mercury"];
+    [element setAtomicWeight:@"200.59"];
+    [element setElectronegativity:@"2"];
+    [element setElementSymbol:@"Hg"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Molybdenum"];
+    [element setAtomicWeight:@"95.94"];
+    [element setElectronegativity:@"2.16"];
+    [element setElementSymbol:@"Mo"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Neodymium"];
+    [element setAtomicWeight:@"144.24"];
+    [element setElectronegativity:@"1.14"];
+    [element setElementSymbol:@"Nd"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Neon"];
+    [element setAtomicWeight:@"20.1797"];
+    [element setElectronegativity:@"N/A"];
+    [element setElementSymbol:@"Ne"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Neptunium"];
+    [element setAtomicWeight:@"237"];
+    [element setElectronegativity:@"1.36"];
+    [element setElementSymbol:@"Np"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Nickel"];
+    [element setAtomicWeight:@"58.6934"];
+    [element setElectronegativity:@"1.91"];
+    [element setElementSymbol:@"Ni"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Niobium"];
+    [element setAtomicWeight:@"92.90638"];
+    [element setElectronegativity:@"1.6"];
+    [element setElementSymbol:@"Nb"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Nitrogen"];
+    [element setAtomicWeight:@"14.0067"];
+    [element setElectronegativity:@"3.04"];
+    [element setElementSymbol:@"N"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Nobelium"];
+    [element setAtomicWeight:@"259"];
+    [element setElectronegativity:@"1.3"];
+    [element setElementSymbol:@"No"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Osmium"];
+    [element setAtomicWeight:@"190.23"];
+    [element setElectronegativity:@"2.2"];
+    [element setElementSymbol:@"Os"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Oxygen"];
+    [element setAtomicWeight:@"15.9994"];
+    [element setElectronegativity:@"3.44"];
+    [element setElementSymbol:@"O"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Palladium"];
+    [element setAtomicWeight:@"106.42"];
+    [element setElectronegativity:@"2.2"];
+    [element setElementSymbol:@"Pd"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Phosphorus"];
+    [element setAtomicWeight:@"30.973761"];
+    [element setElectronegativity:@"2.19"];
+    [element setElementSymbol:@"P"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Platium"];
+    [element setAtomicWeight:@"195.078"];
+    [element setElectronegativity:@"2.28"];
+    [element setElementSymbol:@"Pt"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Plutonium"];
+    [element setAtomicWeight:@"244"];
+    [element setElectronegativity:@"1.28"];
+    [element setElementSymbol:@"Pu"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Polonium"];
+    [element setAtomicWeight:@"209"];
+    [element setElectronegativity:@"2"];
+    [element setElementSymbol:@"Po"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Potassium"];
+    [element setAtomicWeight:@"39.0983"];
+    [element setElectronegativity:@"0.82"];
+    [element setElementSymbol:@"K"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Praseodymium"];
+    [element setAtomicWeight:@"140.90765"];
+    [element setElectronegativity:@"1.13"];
+    [element setElementSymbol:@"Pr"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Promethium"];
+    [element setAtomicWeight:@"145"];
+    [element setElectronegativity:@"N/A"];
+    [element setElementSymbol:@"Pm"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Protactinium"];
+    [element setAtomicWeight:@"231.03588"];
+    [element setElectronegativity:@"1.5"];
+    [element setElementSymbol:@"Pa"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Radium"];
+    [element setAtomicWeight:@"226"];
+    [element setElectronegativity:@"0.9"];
+    [element setElementSymbol:@"Ra"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Radon"];
+    [element setAtomicWeight:@"222"];
+    [element setElectronegativity:@"N/A"];
+    [element setElementSymbol:@"Rn"];
+    [elementArray addObject:element];
+    
+    element = [[Element alloc] init];
+    [element setElementName:@"Rhenium"];
+    [element setAtomicWeight:@"186.207"];
+    [element setElectronegativity:@"1.9"];
+    [element setElementSymbol:@"Re"];
+    [elementArray addObject:element];
+    
+    
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
